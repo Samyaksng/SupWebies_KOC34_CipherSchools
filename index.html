@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attention Passengers!</title>
+    <h1 style="font-weight:bolder; font-size: 2cm; text-align: center; color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Railway Reservation System
+    </h1>
+</head><hr>
+<div class="row">
+<div class="container-fluid"> 
+<body>
+        <div class="col-lg-4">
+            <table style="margin-left: 1.45cm;">
+                <tbody>
+                    <tr>
+                        <td><div>
+                            <p style="font-size:0.75cm; text-align: center; margin-bottom: 1cm;">BOOK YOUR TICKETS HERE!</p>
+                        </div>
+                            <form>
+                                <label for="From"></label>
+                                <input type="text" id="From" placeholder="From" style="width: 10cm; height: 1.75cm; border: 2px solid grey; text-align:center; font-weight: normal; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:xx-large;" required>
+                                <br><img src="./assets/Swap.png" style="width: 1cm; height: 1cm;">
+                                <label for="To"></label><br>
+                                <input type="text" id="To" placeholder="To"  style="width: 10cm; height: 1.75cm; border: 2px solid grey; text-align:center; font-weight: lighter; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-bottom: 0.5cm; margin-left:0.3cm;font-size:xx-large;" required>
+
+                                <label for="Date"></label>
+                                <input type="date" id="Date" style="width: 10cm; height: 1cm; border: 2px solid grey; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 0.2cm; margin-left: 0.3cm;" required>
+                                <label for="Class"></label><br>
+                                <select name="Select Your Class of Coach" id="Class" style="width: 10cm; height: 1cm; border: 2px solid grey; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-top: 0.5cm;">
+                                <option value="All Classes">All Classes</option>
+                                <option value="General">General</option>
+                                <option value="1A - AC First Class">1A - AC First Class</option>
+                                <option value="2A - AC Two Tier">2A - AC Two Tier</option>
+                                <option value="3A - AC Three Tier">3A - AC Three Tier</option>
+                                <option value="EC - Executive Chair Car">EC - Executive Chair Car</option>
+                                <option value="CC - AC Chair Car">CC - AC Chair Car</option>
+                                <option value="SL - Sleeper">SL - Sleeper</option>
+                                <option value="2S - Second Seater">2S - Second Seater</option>
+                                </select><br>
+                                <input class="btn btn-info btn-lg" type="submit" value="Find Trains" style="border: grey; width: 7cm; margin-top: 0.5cm;">
+                                   
+                            </form>
+                        </td>    
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-8">
+    <ul class="w3-padding w3-large w3-teal" style="margin-left: 1cm;">
+        <li><a href="./index.html" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true" style="margin-left: 1cm; margin-right:1cm;"><i class="fa fa-home"></i></a></li>
+        <li><a href="./meals.html" target="_blank" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true" style="margin-right: 1cm;">Meals</a></li>
+        <li><a href="./holidays.html" target="_blank" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true" style="margin-right: 1cm;">Holiday Packages</a></li>
+        <li><a href="./services.html" target="_blank" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true" style="margin-right: 1cm;">Services at Station</a></li>
+        <li><a href="./contact.html" target="_blank" class="btn btn-outline-secondary btn-lg active" role="button" aria-pressed="true" style="margin-right: 1cm;">Contact us</a></li>
+    </ul><hr>
+    <div  style="margin-left: 3cm;">
+    <img src="./assets/Indian Railways.jpg" width="700" height="370">
+    </div>
+    <hr>
+        </div>
+    </div>
+</body>
+</div>
+</html>

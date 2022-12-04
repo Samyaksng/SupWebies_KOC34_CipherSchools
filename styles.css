@@ -1,0 +1,43 @@
+
+body{
+    background-image:url('assets/white.webp');
+    background-size:contain;
+}
+table{
+    border: 3px solid grey;
+    height: 14cm;
+    width: 12cm;
+    align-self: flex-end;
+}
+td{
+    border: 0cm white;
+    align-content:stretch;
+    text-align:center;
+    font-size: 0.63cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+form{
+    font-size:large;
+}
+::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: block;
+}
+button{
+    margin-right: 2cm;
+}
+ul {
+    border:none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aliceblue;
+  }
+  li{
+    display: inline;
+  }
+li a{
+    display: inline-block;
+}
